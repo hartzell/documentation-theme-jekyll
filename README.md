@@ -28,7 +28,7 @@ into GitHub Pages):
   commits from `toms-gh-pages` may be merged into it.  Most new work
   should occur on "topic branches" that originate from `develop` and
   are merged back into it (not shown in the image above).
-  Periodically releases are made by merged from `develop` to the
+  Periodically releases are made by merging from `develop` to the
   `gh-pages` branch (which GitHub Pages consumes).
 
 - `gh-pages` -- this branch holds the source for the current release
@@ -36,8 +36,9 @@ into GitHub Pages):
   branch or emergency fixes from hot fix branches.
 
 - `master` -- this branch exists solely for administrative purposes
-  such as this README.md.  Eventually we'll have a CONTRIBUTING file
-  and various templates here.
+  such as this README.md.  It is an "orphan branch", unrelated to the
+  branches.  Eventually we'll have a CONTRIBUTING file and various
+  templates here.
 
 
 [toms-repo]: https://github.com/tomjohnson1492/documentation-theme-jekyll
