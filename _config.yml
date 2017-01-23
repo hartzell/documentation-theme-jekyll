@@ -29,10 +29,10 @@ exclude:
 
 feedback_subject_line: RSS Computing website
 
-feedback_email: hartzell@alerce.com
+feedback_email: george.hartzell.gh1@contractors.roche.com
 # used as a contact email for the Feedback link in the top navigation bar
 
-# feedback_disable: true
+feedback_disable: true
 # if you uncomment the previous line, the Feedback link gets removed
 
 # feedback_text: "Need help?"
