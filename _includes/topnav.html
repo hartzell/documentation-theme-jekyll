@@ -44,6 +44,7 @@
                 </li>
                 {% endfor %}
                 {% endfor %}
+			          {% include edit_me.html %}
                 {% if site.feedback_disable == null or site.feedback_disable == false %}
 			{% include feedback.html %}
 		{% endif %}
@@ -68,7 +69,6 @@
                     </script>
                     <!--end search-->
                 </li>
-			          {% include edit_me.html %}
             </ul>
         </div>
         </div>
