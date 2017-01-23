@@ -1,0 +1,8 @@
+{% if site.github_editme_path %}
+<li>
+  <a target="_blank"
+     href="https://github.com/{{site.github_editme_path}}{% unless page.url contains "index.html" %}pages/{% endunless %}{{page.folder}}{{page.url | remove: ".html" | append: ".md"}}"
+     class="githubEditButton"
+     role="button"><i class="fa fa-github fa-lg"></i> Edit this page</a>
+</li>
+{% endif %}
