@@ -10,6 +10,8 @@ branch, seems to work on topic branches that are merged into the
 `gh-pages` branch and has a handful of miscellaneous branches hanging
 around.
 
+![image of project branches](the-branches.png)
+
 This repository has four long-lived branches (roughly following
 the
 [gitflow model](http://nvie.com/posts/a-successful-git-branching-model) with
@@ -25,9 +27,9 @@ into GitHub Pages):
 - `develop` -- this branch holds our ongoing work.  Periodically
   commits from `toms-gh-pages` may be merged into it.  Most new work
   should occur on "topic branches" that originate from `develop` and
-  are merged back into it.  Periodically releases are made by merged
-  from `develop` to the `gh-pages` branch (which GitHub Pages
-  consumes).
+  are merged back into it (not shown in the image above).
+  Periodically releases are made by merged from `develop` to the
+  `gh-pages` branch (which GitHub Pages consumes).
 
 - `gh-pages` -- this branch holds the source for the current release
   of the site.  It should only be updated by merges from the develop
