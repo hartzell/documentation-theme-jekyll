@@ -366,7 +366,6 @@ a.accordion-toggle, a.accordion-collapsed {
 .nav li > a > span:after {
    font-family: FontAwesome;
    content: "\f105";
-
 }
 .nav li.active > a > span:after {
    font-family: FontAwesome;
