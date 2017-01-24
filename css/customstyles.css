@@ -363,12 +363,14 @@ a.accordion-toggle, a.accordion-collapsed {
     font-weight: bolder;
 }
 
-
 .nav li > a > span:after {
-    content: '\25be';
+   font-family: FontAwesome;
+   content: "\f105";
+
 }
 .nav li.active > a > span:after {
-    content: '\25b4';
+   font-family: FontAwesome;
+   content: "\f107";
 }
 
 .nav a:hover, .nav li.active > a {
