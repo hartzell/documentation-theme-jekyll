@@ -10,7 +10,11 @@ site_title: RSS Computing
 company_name: Roche Sequencing Solutions
 # this appears in the footer
 
-github_editme_path: hartzell/documentation-theme-jekyll/blob/develop/
+github_base: http://rpbuvgithub.ple.roche.com
+# The base of the URL, glue this onto github_editme_path
+# Change it for GitHub Enterprise sites
+
+github_editme_path: hartzelg/rss-computing-portal/blob/develop/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 disqus_shortname: idrbwjekyll
